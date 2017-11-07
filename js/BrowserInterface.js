@@ -1,14 +1,4 @@
-/**
- * Author: Maximo Mena
- * GitHub: mmenavas
- * Twitter: @menamaximo
- * Project: Memory Workout
- * Description: The game interface
- */
 
-/**
- * @TODO Refactor code.
- */
 (function($) {
 
 // Handle clicking on settings icon

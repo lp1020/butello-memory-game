@@ -1,21 +1,3 @@
-/**
- * Author: Maximo Mena
- * GitHub: mmenavas
- * Twitter: @menamaximo
- * Project: Memory Workout
- * Description: This is a memory game written in pure JavaScript.
- * The goal is to match pairs of cards in the least
- * number of matching attempts.
- */
-
-/**
- * @TODO
- * - Implement support for multiple players.
- */
-
-/**
- * @namespace The main application object
- */
 var MemoryGame = {
 
   settings: {
@@ -29,15 +11,7 @@ var MemoryGame = {
   mistakes: 0, // How many pairs of cards were flipped before completing game
   isGameOver: false,
 
-  /**
-   * Modify default settings to start a new game.
-   * Both parameters need integers greater than one, and
-   * at least one them  needs to be an even number.
-   *
-   * @param {number} columns
-   * @param {number} rows
-   * @return {array} shuffled cards
-   */
+
   initialize : function(rows, columns) {
     var validOptions = true;
 
